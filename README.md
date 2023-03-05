@@ -10,35 +10,32 @@ Best practice dictates that when a secret is committed to git, you should:
 - Purge it from git history with bfg, or filter-repo, etc  
 
 Steps taken:  
-Clone the fresh repo
+- Clone the fresh repo
+- Create a branch
+- Make a change on that branch
+- Push
+- PR
+- Merge
+- Pull main
+- Tag main
+- Push tag
 
-Create a branch
-Make a change on that branch
-Push
-PR
-Merge
-Pull main
-Tag main
-Push tag
-
-Create branch 2
-Make a change on that branch
-Push
-PR
-Merge
-Pull main
-Tag main
-Push tag
-
-Create branch 3
-Remove secret
-Push
-PR
-Merge
-
-Clone a mirror
-Create secret file
-Run bfg replace text
-reflog + gc
-Force push
+- Create branch 2
+- Make a change on that branch
+- Push
+- PR
+- Merge
+- Pull main
+- Tag main
+- Push tag
+- Create branch 3
+- Remove secret
+- Push
+- PR
+- Merge
+- Clone a mirror
+- Create secret file
+- Run bfg replace text
+- reflog + gc
+- Force push
 
